@@ -8,7 +8,7 @@ ENTITY water_led is					--配置实体
 		CLK,CLR : in std_logic;
 		res : out std_logic_vector(15 downto 0));
 end ;
-
+ 
 architecture func of water_led is					--配置结构体
 signal state : integer range 11 downto 0 := 0;		--定义信号,全局量
 
